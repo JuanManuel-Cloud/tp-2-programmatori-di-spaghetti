@@ -13,7 +13,7 @@ Antes de comenzar con la aplicación estuvimos haciendo un poco de investigació
 * [No stack protector](https://en.wikipedia.org/wiki/Buffer_overflow_protection)
 ___
 ### Primeras aproximaciones 
-La primera aproximacion al estudio de estas herramientas fue un [foro](https://wiki.elhacker.net/bugs-y-exploits/overflows-y-shellcodes/bufferoverflowen)  el cual se detallaba como ejecutar un exploit utilizando diversas herramientas como scripts en perl y programas en c para generar argumentos a medida de lo pedido, ahi se detallaban conceptos en torno a los bytes de proteccion, uso de no-ops para saltarsela, tambien hablaba de los problemas que representaba no poder hacer que los datos se correspondieran con las posicisiones deseadas. Laa solucion del problema que se planteaba era mas grande del que nos estabamos enfrentando por eso las ideas planteadas ahi no se implmentaron, sin embargo resultaron ilustrativas del tipo de problema al que nos enfrentabamos.
+La primera aproximacion al estudio de estas herramientas fue un [foro](https://wiki.elhacker.net/bugs-y-exploits/overflows-y-shellcodes/bufferoverflow)  el cual se detallaba como ejecutar un exploit utilizando diversas herramientas como scripts en perl y programas en c para generar argumentos a medida de lo pedido, ahi se detallaban conceptos en torno a los bytes de proteccion, uso de no-ops para saltarsela, tambien hablaba de los problemas que representaba no poder hacer que los datos se correspondieran con las posicisiones deseadas. Laa solucion del problema que se planteaba era mas grande del que nos estabamos enfrentando por eso las ideas planteadas ahi no se implmentaron, sin embargo resultaron ilustrativas del tipo de problema al que nos enfrentabamos.
 ___
 
 ### Compilacion y flags
